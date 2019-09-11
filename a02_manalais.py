@@ -29,6 +29,7 @@ def icecream_circle(circle):
     circle.end_fill()
 def random0(random):
     random.penup()
+    random.setpos(-45,40)
     random.pensize(6)
     random.color('blue')
     random.pendown()
@@ -38,13 +39,14 @@ def random0(random):
         random.forward(60)
         random.right(90)
         random.forward(60)
-        random.right(60)
+        random.right(90)
 
 
 def main():
     wn = turtle.Screen()
     cone = turtle.Turtle()
     circle = turtle.Turtle()
+    random = turtle.Turtle()
     icecream_cone(cone)
     icecream_circle(circle)
     random0(random)
