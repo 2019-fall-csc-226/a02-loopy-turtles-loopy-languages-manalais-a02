@@ -48,6 +48,7 @@ def random0(random):
         random.right(90)
         random.forward(60)
         random.right(90)
+    random.end_fill()
 
 
 def main():
