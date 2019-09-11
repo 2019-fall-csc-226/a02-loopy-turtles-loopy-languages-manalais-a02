@@ -28,14 +28,6 @@ def icecream_circle(circle):
     circle.circle(-52)
     circle.end_fill()
 
-
-
-
-
-
-
-
-
 def main():
     wn = turtle.Screen()
     cone = turtle.Turtle()
