@@ -27,6 +27,15 @@ def icecream_circle(circle):
     circle.begin_fill()
     circle.circle(-52)
     circle.end_fill()
+def random0(random):
+    random.penup()
+    random.pensize(6)
+    random.color('blue')
+    random.pendown()
+    random.fillcolor('blue')
+    random.begin_fill()
+    for i in range (2)
+
 
 def main():
     wn = turtle.Screen()
