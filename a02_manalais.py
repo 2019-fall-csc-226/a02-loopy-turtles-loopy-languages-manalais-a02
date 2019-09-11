@@ -47,6 +47,7 @@ def main():
     circle = turtle.Turtle()
     icecream_cone(cone)
     icecream_circle(circle)
+    random0(random)
     wn.exitonclick()
 
 main()
