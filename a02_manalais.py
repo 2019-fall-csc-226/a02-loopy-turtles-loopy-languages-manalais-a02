@@ -1,3 +1,11 @@
+######################################################################
+# Author: Sama Manalai
+# Username: manalais
+#
+
+# Assignment: A02: Loopy Language
+# Purpose: Draws an Ice cream and a square
+######################################################################
 import turtle
 
 def icecream_cone(cone):
