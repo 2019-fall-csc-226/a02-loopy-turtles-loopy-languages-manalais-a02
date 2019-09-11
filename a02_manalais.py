@@ -34,7 +34,11 @@ def random0(random):
     random.pendown()
     random.fillcolor('blue')
     random.begin_fill()
-    for i in range (2)
+    for side in range(2):
+        random.forward(60)
+        random.right(90)
+        random.forward(60)
+        random.right(60)
 
 
 def main():
